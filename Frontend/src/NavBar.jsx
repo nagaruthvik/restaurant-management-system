@@ -20,8 +20,10 @@ export default function NavBar() {
         case 2:
           navigate("/order-line");
           break;
+
         case 3:
-          navigate("/tables");
+          window.location.href =
+            "https://restaurant-management-system-blush-iota.vercel.app/";
           break;
         default:
           break;
