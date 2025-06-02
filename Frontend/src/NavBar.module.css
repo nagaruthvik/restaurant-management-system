@@ -1,0 +1,49 @@
+body {
+  margin: 0.5vh;
+  background-color: #f0f5f3;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.navbarProfile {
+  width: 5vh;
+  height: 5vh;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  padding: 2vh;
+}
+
+.navbarLinks {
+  background-color: white;
+  width: 5vh;
+  height: 79vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3vh;
+  padding: 2vh;
+  border-radius: 5vh;
+}
+
+.navbarLinks svg{
+  background-color: #F0F5F3;
+  padding: 1.5vh;
+  border-radius: 3vh;
+}
+
+.navbarCircle {
+  width: 5vh;
+  height: 5vh;
+  background-color: #f0f5f3;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh;
+  margin-top: auto;
+}

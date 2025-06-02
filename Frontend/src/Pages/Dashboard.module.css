@@ -1,0 +1,148 @@
+.Dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 96vh;
+    box-sizing: border-box;
+}
+.tableHeader {
+  background-color: white;
+  display: flex;
+  gap: 2vh;
+  padding: 1vh;
+  border-radius: 3vh;
+  width: 40vh;
+}
+
+.tableCircle {
+  width: 5vh;
+  height: 5vh;
+  background-color: #f2f5f5;
+  border-radius: 50%;
+  border: none;
+}
+
+.tableHeader input {
+  border: none;
+}
+
+.dashboardMain{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 1vh;
+    padding: 2vh;
+    box-sizing: border-box;
+}
+
+.dashboardSection1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dashboardSection1 > div{
+    width: 40vh;
+    height: 14vh;
+    background-color: #F0F5F3;
+    border: 0.4vh solid #D9D9D9;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8vh;
+}
+
+.dashboarinnerPart1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemDisplay{
+  font-size: 1.5rem;
+  color: #626262;
+}
+
+.itemText{
+  font-size: 0.8rem;
+  color: #666666;
+}
+
+.dashboardSection2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vh;
+
+}
+
+.dashboardSection2 > div{
+   width: 62vh;
+    height: 39vh;
+    background-color: #F0F5F3;
+    border: 0.4vh solid #D9D9D9;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8vh;
+}
+
+.pychartSection1{
+  display: flex;
+
+}
+
+.pychartSection2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  color: #6E6E6E;
+}
+
+.dropdown{
+  background-color: white;
+  border: 0.3vh solid #D9D9D9;
+  border-radius: 3vh;
+  padding: 1vh;
+  color: #6E6E6E;
+}
+
+.pychartSection3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  background-color: white;
+  border: 0.3vh solid #D9D9D9;
+  border-radius: 0.8vh;
+}
+
+.pychartSectionPart2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tableAvailable, .tableReserved{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tableReserved div{
+  width: 2vh;
+  height: 2vh;
+  border-radius: 50%;
+  background-color: #3DC35F;
+}
+
+.tableAvailable div{
+  width: 2vh;
+  height: 2vh;
+  border-radius: 50%;
+  background-color:white;
+}
+.pychartSectionPart3{
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  max-width: 70vh;
+  max-height: 28vh;
+}

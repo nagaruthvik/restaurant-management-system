@@ -1,0 +1,97 @@
+.searchBar input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+.searchBar img {
+  width: 4vh;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+  background-color: #f0f5f3;
+  border-radius: 1vh;
+  padding: 1.5vh 2vh;
+  width: 80%;
+}
+
+.cartChip {
+  display: flex;
+  gap: 2vh;
+  
+}
+
+.cartChip img {
+  width: 15vh;
+  max-height: 14vh;
+  border-radius: 1vh;
+  border: 1.3vh solid lightgray;
+}
+.dineIn{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e4e4e4; 
+    border-radius: 4vh;
+    box-sizing: border-box;
+    max-height:8vh;
+    align-items: center;
+}
+.dineInDetails{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+    background-color: rgba(255, 244, 143, 0.14);
+    width: 100%;
+}
+.dineInDetailsBox{
+    display: flex;
+    justify-content: space-between;
+  
+    width: 100%;
+}
+.backgroundBlur{
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+}
+.addingCooking{
+  position: relative;
+  top: 30%;
+  background-color: #F0F5F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3vh;
+  width: 100%;
+  z-index: 9999;
+}
+.addingCooking h3{
+  align-self: baseline;
+}
+.addingCooking input{
+  margin-right: 3vh;
+  width: 40vh;
+  height: 10vh;
+}
+.addingCooking p{
+  font-size: 0.8rem;
+  width: 90%;
+}
+.closeBtn{
+  font-size: 2rem;
+  position: relative;
+  color: white;
+  padding-top: 0.9vh;
+  background-color: black;
+  border-radius: 50%;
+}
