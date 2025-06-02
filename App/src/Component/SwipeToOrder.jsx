@@ -2,8 +2,10 @@ import React, { useRef, useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function SwipeToOrder({ name, phone, address, isTakeaway,time ,instruction}) {
+  const navigate = useNavigate()
   const dragRef = useRef(0);
 
   const [dragX, setDragX] = useState(7);
@@ -113,6 +115,7 @@ export default function SwipeToOrder({ name, phone, address, isTakeaway,time ,in
 
       console.log("Order placed successfully:", response.data);
       localStorage.removeItem("cartItems");
+      navigate("/")
     } catch (error) {
       console.error("Error placing order:", error);
       toast.error("Failed to place order", {
