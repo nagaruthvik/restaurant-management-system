@@ -29,15 +29,15 @@ export default function SwipeToOrder({ name, phone, address, isTakeaway,time ,in
       document.removeEventListener("touchend", endDrag);
       console.log(dragX);
 
-      console.log("Final Drag:", dragRef.current);
-      toast.success("Order Placed", {
-        position: "top-center",
-      });
+  
 
       if (dragRef.current >= maxDrag) {
         setConfirmed(true);
 
         handleSubmitOrder();
+            toast.success("Order Placed", {
+        position: "top-center",
+      });
       } else {
         setDragX(0);
       }
