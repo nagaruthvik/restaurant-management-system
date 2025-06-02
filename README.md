@@ -6,15 +6,13 @@ A full-stack Restaurant Management System using React, Express, and MongoDB. Inc
 🔥 Order Placement
 Users can place orders from 5 main sections:
 
-Burgers
+-Burgers
+-Pizzas
+-Drinks
+-French Fries
+-Salads
 
-Pizzas
 
-Drinks
-
-French Fries
-
-Salads
 ![image](https://github.com/user-attachments/assets/dc127002-5a09-43dd-8036-9321ab963cb7)
 
 
@@ -46,6 +44,7 @@ Admins can add or update table information to manage dine-in orders.
 Admins can view and manage all customer orders with status updates in real time.
 
 ![image](https://github.com/user-attachments/assets/e3f52f8b-06e0-42fc-897c-a2b1a155b6e0)
+
 
 
 📊 Analytics Section
